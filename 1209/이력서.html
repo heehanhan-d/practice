@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>이력서</title>
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li class="profile"><a class="a" href="#profile">프로필</a></li>
+                    <li class="detail"><a class="a" href="#detail">상세 내용</a></li>
+                    <style>
+                        #menu{
+                            width: 99%;
+                            height: 40px;
+                            padding: 15px 0 0 15px;
+                            list-style: none;
+                            color: white;
+                            background-color: grey;
+                            text-align: center;
+                        }
+
+                        .a{
+                            text-decoration-line: none;
+                            color: white;
+                        }
+
+                        .profile{
+                            float: left;
+                        }
+
+                        .profile:hover{
+                            background-color: darkgrey;
+                            letter-spacing: 4px;
+                            transition: 10s 0;
+                        }
+
+                        .detail{
+                            float: left;
+                            padding: 0 0 0 30px;
+                        }
+
+                        .detail:hover{
+                            background-color: darkgrey;
+                            letter-spacing: 4px;
+                            margin: 0 0 0 30px;
+                            padding: 0 0 0 0;
+                            transition: 10s 0;
+                        }
+                    </style>
+                </ul>
+            </nav>
+        </header>
+    </head>
+    <body> 
+        <main>
+            <article>
+                <h1>heehanhand</h1>
+                <div class="img">
+                    <div>
+                        <img class="zoom" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MDVfMjk4%2FMDAxNjIyODYzNTI0NDUx.NVZdKEzEP15u40YgFx0H0kGCgl1Lnvlh7edHgtVNmkEg.nD2aVKmsbB3A_DBhEbAmHqRpDJkhNllA3ldo_kdN9sMg.JPEG.hhl3877%2FIMG_1920.jpg&type=l340_165" alt="사진">
+                    </div>
+                </div>
+                    <style>
+                        h1{
+                            font-size: 50px;
+                            margin: 30px 0 0 60px;
+                        }
+                        .img{
+                            overflow: hidden;
+                        }
+                        .zoom{
+                            margin: 30px 0 0 60px;
+                            transition: 3s;
+                            transform: scale(1);
+                        }
+                        .zoom:hover{
+                            transform: scale(1.1);
+                        }
+                    </style>
+            </article>
+            <article>
+                <div class="container">
+                    <div class="item">
+                        <h2 id="detail">인적사항</h2>
+                        <p>생년월일: 06.01. | B형 | INFJ<br>주소: 서울<br>연락처: heehanhand@gmail.com</p>
+                    </div></style>
+                    <div class="item">
+                        <h2>학력사항</h2>
+                        <ul>
+                            <li>OOOO중학교</li>
+                            <li>OOOO고등학교</li>
+                            <li>OO대학교</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h2>경력사항</h2>
+                        <ol>
+                            <li>엘리스 AI 트랙 6기 학습중</li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                    <div class="item">
+                        <h2>보유 스킬</h2>
+                            <ul>
+                                <li><a href="html.html">HTML</a></li>
+                                <li><a href="css.html">CSS</a></li>
+                                <li><a href="javaScript.html">JavaScript</a></li>
+                            </ul>
+                    </div>
+                </div>
+                <style>
+                    .container{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;
+                        margin: 30px;
+                    }
+                </style>        
+            </article>
+        </main>
+        <footer>
+            <p>Author by: heehanhand<br>Copyright © 2022 heehanhand. All rights reserved.</p>
+            <style>
+                footer{
+                    width: 1430px;
+                    height: 80px;
+                    background-color: grey;
+                    margin: 10px 0 0 10px;
+                    padding: 30px 0 0 50px;
+                }
+            </style>
+        </footer>
+    </body>
+</html>
